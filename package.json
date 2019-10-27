@@ -1,0 +1,30 @@
+{
+  "name": "cf-cname-ctl",
+  "version": "1.0.0",
+  "description": "A compact command line tool to update your CloudFront distribution CNAMES with one easy command!",
+  "author": "Sufyan Adam (https://github.com/sufyanadam)",
+  "license": "ISC",
+  "keywords": [
+    "Update",
+    "or",
+    "Change",
+    "Cloudfront",
+    "Distribution",
+    "CNAMES",
+    "Continuous Integration",
+    "Continuous Delivery",
+    "Continuous Deployment",
+    "CI/CD",
+    "CI",
+    "CD",
+    "tool"
+  ],
+  "main": "index.js",
+  "scripts": {},
+  "bin": {
+    "cf-cname-ctl": "./index.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.556.0"
+  }
+}

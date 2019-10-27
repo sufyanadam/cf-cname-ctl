@@ -1,0 +1,35 @@
+* cf-cname-ctl
+
+  A command line tool to help you easily and quickly update CNAMES in your cloudfront distribution!
+
+  This can be very helpful for automation purposes and CI/CD (Continuous Integration / Continuous Deployment/Delivery) pipelines.
+
+
+* Usage
+
+  #+begin_src bash
+  cf-cname-ctl DISTRIBUTION_ID OPERATION CNAME
+  #+end_src
+
+  Where ~DISTRIBUTION_ID~ is the cloudfront distribution id to update,
+  ~OPERATION~ is one of ~add~ or ~remove~ and ~CNAME~ is the CNAME to act with.
+
+  Example:
+
+  To remove the ~CNAME~ ~app.example.com~ from the CloudFront distribution with ID ~S9H3LE11AJ4QAG~:
+  #+begin_src bash
+  cf-cname-ctl S9H3LE11AJ4QAG remove app.example.com
+  #+end_src
+
+  To add the CNAME app.example.com from the CloudFront distribution with ID ~S9H3LE11AJ4QAG~:
+  #+begin_src bash
+  cf-cname-ctl S9H3LE11AJ4QAG add app.example.com
+  #+end_src
+
+* Contributing
+
+  Bug reports and pull requests are welcome on GitHub at https://github.com/sufyanadam/cf-cname-ctl. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [[http://contributor-covenant.org][Contributor Covenant]].
+
+* License
+
+  This npm package is available as open source under the terms of the [[https://opensource.org/licenses/ISC][ISC License]].
