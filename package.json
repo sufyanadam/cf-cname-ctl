@@ -4,6 +4,15 @@
   "description": "A compact command line tool to update your CloudFront distribution CNAMES with one easy command!",
   "author": "Sufyan Adam (https://github.com/sufyanadam)",
   "license": "ISC",
+  "homepage": "https://github.com/sufyanadam/cf-cname-ctl",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sufyanadam/cf-cname-ctl.git"
+  },
+  "engines": {
+    "node": ">=12.6.0"
+  },
+  "preferGlobal": true,
   "keywords": [
     "Update",
     "or",
