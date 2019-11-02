@@ -5,6 +5,15 @@
   This can be very helpful for automation purposes and CI/CD (Continuous Integration / Continuous Deployment/Delivery) pipelines that involve the creation of 'review apps' or the creation of on-demand environments for each branch that have there own unique URLs.. 
 
 
+* Installation
+  The package is written in `node` and thus may be installed easily via `npm`. `npm` ships with `node` so if you
+  don't have it just install `node` and you'll have a working `npm` command soon after. On Mac OS you can just use
+  homebrew like so `brew install node`.
+
+  #+begin_src bash
+  npm install cf-cname-ctl -g
+  #+end_src
+
 * Usage
 
   #+begin_src bash
