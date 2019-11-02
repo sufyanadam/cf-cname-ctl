@@ -16,6 +16,9 @@
 
 * Usage
 
+  Just define the environment variables ~AWS_ACCESS_KEY_ID~ and ~AWS_SECRET_ACCESS_KEY~ with your AWS credentials
+  and you're ready to go. The simple command this package provides is as follows:
+
   #+begin_src bash
   cf-cname-ctl DISTRIBUTION_ID OPERATION CNAME
   #+end_src
