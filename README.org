@@ -2,7 +2,7 @@
 
   A command line tool to help you easily and quickly update CNAMES in your cloudfront distribution!
 
-  This can be very helpful for automation purposes and CI/CD (Continuous Integration / Continuous Deployment/Delivery) pipelines that involve the creation of 'review apps' or the creation of on-demand environments for each branch that have there own unique URLs.. 
+  This can be very helpful for automation purposes and CI/CD (Continuous Integration / Continuous Deployment/Delivery) pipelines that involve the creation of 'review apps' or the creation of on-demand environments for each branch that have there own unique URLs..
 
 
 * Installation
